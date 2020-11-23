@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "roboto";
+    src: url(Roboto-Regular.ttf);
+}
+
+body {
+    background-image: url(nba2k21.png);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "roboto", Arial;
+    margin: 0px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    margin: 20 ;
+}
+#logo {
+    width: 15%;
+}
+nav {
+    background-color: transparent;
+}
+
+nav ol {
+    display: flex;
+}
+
+nav ol li {
+    margin: 0px 16px;
+    list-style: none;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "roboto", Arial;
+}
+.lista {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    margin: 7px;
+    background: #f3e8e800;
+    display: flex;
+    border-radius: 10px;
+    font-family: "roboto" , Arial;
+    color: white;
+}
+.lista:hover {
+    background-color: red;
+}
+#video-container{
+    position: relative;
+    overflow: hidden;
+    width: 10000px;
+    padding-top: 10.26%;
+    margin-left: 400px;
+}
+#video-conatiner iframe{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 50px;
+    width: 40%;
+    height: 20%;
+    
+    
+}
